@@ -14,6 +14,13 @@ fixtures:
     inifile: "https://github.com/puppetlabs/puppetlabs-inifile.git"
     apt: "https://github.com/puppetlabs/puppetlabs-apt.git"
     profile_puppetmaster: "https://github.com/relybv/beng-profile_puppetmaster.git"
+    apache:
+      repo:  "https://github.com/puppetlabs/puppetlabs-apache.git"
+      ref:  "1.4.1"
+    puppetserver_gem: "https://github.com/puppetlabs/puppetlabs-puppetserver_gem.git"
+    puppetdb: "https://github.com/puppetlabs/puppetlabs-puppetdb.git"
+    postgresql: "https://github.com/puppetlabs/puppetlabs-postgresql.git"
+    concat: "https://github.com/puppetlabs/puppetlabs-concat.git"
 
   symlinks:
     role_deployserver: "#{source_dir}"
