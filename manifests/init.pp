@@ -10,6 +10,10 @@
 class role_deployserver
 {
   # a role includes one or more profiles and at least a 'base' profile
-  include ::profile_base
-  include ::profile_puppetmaster
+
+  class { '::profile_base':  }
+  class { '::profile_puppetmaster':
+    require => Class['::profile_base'],
+  }
+
 }
