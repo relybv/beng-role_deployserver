@@ -6,7 +6,6 @@ fixtures:
  
 # role module layout, include profile base and ntp module
     profile_base: "https://github.com/relybv/beng-profile_base.git"
-    rspec_monitor: "git://github.com/pgomersbach/test-rspec_monitor.git"
     ntp:
       repo: "https://github.com/puppetlabs/puppetlabs-ntp.git"
       ref: "4.2.0"
