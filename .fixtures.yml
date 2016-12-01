@@ -19,6 +19,10 @@ fixtures:
     postgresql: "https://github.com/puppetlabs/puppetlabs-postgresql.git"
     firewall: "https://github.com/puppetlabs/puppetlabs-firewall.git"
     concat: "https://github.com/puppetlabs/puppetlabs-concat.git"
+    cron: "https://github.com/roman-mueller/rmueller-cron"
+    snmp: "git://github.com/razorsedge/puppet-snmp.git"
+    vmwaretools: "git://github.com/craigwatson/puppet-vmwaretools.git"
+    vsftpd: "https://github.com/thias/puppet-vsftpd.git"
 
   symlinks:
     role_deployserver: "#{source_dir}"
