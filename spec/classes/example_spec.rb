@@ -15,9 +15,7 @@ describe 'role_deployserver' do
 
           it { is_expected.to compile.with_all_deps }
           it { is_expected.to contain_class('role_deployserver') }
-       
           it { is_expected.to contain_class('profile_base') }
-#          it { is_expected.to contain_class('profile_base::rspec_monitor') }
 
         end
       end
