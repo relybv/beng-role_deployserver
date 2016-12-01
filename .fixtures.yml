@@ -23,6 +23,8 @@ fixtures:
     snmp: "git://github.com/razorsedge/puppet-snmp.git"
     vmwaretools: "git://github.com/craigwatson/puppet-vmwaretools.git"
     vsftpd: "https://github.com/thias/puppet-vsftpd.git"
+    beng_nrpe: "https://github.com/relybv/beng-beng_nrpe.git"
+    beng_fw: "https://github.com/relybv/beng-beng_fw.git"
 
   symlinks:
     role_deployserver: "#{source_dir}"
