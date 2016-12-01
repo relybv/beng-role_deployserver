@@ -17,6 +17,7 @@ fixtures:
     puppetserver_gem: "https://github.com/puppetlabs/puppetlabs-puppetserver_gem.git"
     puppetdb: "https://github.com/puppetlabs/puppetlabs-puppetdb.git"
     postgresql: "https://github.com/puppetlabs/puppetlabs-postgresql.git"
+    firewall: "https://github.com/puppetlabs/puppetlabs-firewall.git"
     concat: "https://github.com/puppetlabs/puppetlabs-concat.git"
 
   symlinks:
