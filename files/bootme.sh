@@ -66,10 +66,10 @@ echo "Preparing modules"
 
 # copy to puppet module location
 if [ -d $MODULEDIR ]; then
-cp -a /root/beng_fw/spec/fixtures/modules/* $MODULEDIR
+cp -a /root/role_deployserver/spec/fixtures/modules/* $MODULEDIR
 else
 mkdir $MODULEDIR
-cp -a /root/beng_fw/spec/fixtures/modules/* $MODULEDIR
+cp -a /root/role_deployserver/spec/fixtures/modules/* $MODULEDIR
 fi
 
 echo "Run puppet apply"
