@@ -27,9 +27,6 @@ fixtures:
     beng_nrpe: "https://github.com/relybv/beng-beng_nrpe.git"
     beng_fw: "https://github.com/relybv/beng-beng_fw.git"
     beng_vmware: "https://github.com/relybv/beng-beng_vmware.git"
-<<<<<<< HEAD
 
-=======
->>>>>>> b2f0bccec169892f0ea4b3eccd61537bf29a33b6
   symlinks:
     role_deployserver: "#{source_dir}"
