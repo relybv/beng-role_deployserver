@@ -3,7 +3,7 @@ fixtures:
     profile_base: "https://github.com/relybv/beng-profile_base.git"
     stdlib:
       repo: "https://github.com/puppetlabs/puppetlabs-stdlib.git"
-      ref: "4.12.0"
+      ref: "4.13.1"
     ntp:
       repo: "https://github.com/puppetlabs/puppetlabs-ntp.git"
       ref: "4.2.0"
