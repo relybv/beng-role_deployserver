@@ -16,9 +16,13 @@ fixtures:
       ref:  "1.4.1"
     puppetserver_gem: "https://github.com/puppetlabs/puppetlabs-puppetserver_gem.git"
     puppetdb: "https://github.com/puppetlabs/puppetlabs-puppetdb.git"
-    postgresql: "https://github.com/puppetlabs/puppetlabs-postgresql.git"
     firewall: "https://github.com/puppetlabs/puppetlabs-firewall.git"
-    concat: "https://github.com/puppetlabs/puppetlabs-concat.git"
+    postgresql:
+      repo:  "https://github.com/puppetlabs/puppetlabs-postgresql.git"
+      ref: "4.9.0"
+    concat:
+      repo:  "https://github.com/puppetlabs/puppetlabs-concat.git"
+      ref: "1.2.2"
     cron: "https://github.com/roman-mueller/rmueller-cron"
     snmp: "https://github.com/razorsedge/puppet-snmp.git"
     vmwaretools: "https://github.com/craigwatson/puppet-vmwaretools.git"
